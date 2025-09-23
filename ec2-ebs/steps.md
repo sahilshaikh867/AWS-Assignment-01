@@ -15,12 +15,20 @@ This guide explains how to:
 ### 1️⃣ Install AWS CLI on Ubuntu
 Ran the following commands:
 
+```bash
+sudo snap install aws-cli --classic
+aws --version
+sudo apt update
+sudo apt install unzip -y
+unzip awscliv2.zip
+sudo ./aws/install
+```
 
 ### 2️⃣ Open AWS Console & Search IAM
 - Logged in to **AWS Console**  
 - Searched for **IAM** service  
 
-📸 ![Step 2: Search IAM](screenshots/step2-iam.png)
+📸 ![Step 2: Search IAM](screenshot/search.png)
 
 ---
 
@@ -28,17 +36,22 @@ Ran the following commands:
 - Opened **IAM Dashboard**  
 - Navigated to **Users** section  
 
-📸 ![Step 3: IAM Dashboard](screenshots/step3-dashboard.png)
+📸 ![Step 3: IAM Dashboard](screenshot/Dashboard.png)
+
+- Check User List
+📸 ![Step 3a: User list](screenshot/userlist.png)
 
 ---
 
 ### 4️⃣ Create New IAM User
 - Clicked **Add User**  
-- Entered username  
-- Unticked **Provide AWS Management Console access**  
+- Entered username
+📸 ![Step 4: Create User](screenshot/username.png)
+   
+- Unticked **Provide AWS Management Console access**
 - Selected **Attach policies directly** and assigned permissions  
 
-📸 ![Step 4: Create User](screenshots/step4-create-user.png)
+📸 ![Step 4: Create User](screenshot/permissions.png)
 
 ---
 
@@ -46,16 +59,26 @@ Ran the following commands:
 - Reviewed configuration  
 - Created IAM user successfully ✅  
 
-📸 ![Step 5: Review](screenshots/step5-review.png)
+📸 ![Step 5: Review](screenshot/review.png)
+
+- Confirm User are created or Not
+
+📸 ![Step 5: Review](screenshot/confirmuser.png)
 
 ---
 
 ### 6️⃣ Generate Access Key
-- Went to **Security Credentials**  
-- Created new **Access Key** (for CLI)  
+- Went to **Security Credentials**
+  
+📸 ![Step 6: Access Key](screenshot/view-user.png)
+ 
+- Created new **Access Key** (for CLI)
+
+📸 ![Step 6: Access Key](screenshot/access-key.png)
+   
 - Added description, confirmed, and downloaded `.csv`  
 
-📸 ![Step 6: Access Key](screenshots/step6-accesskey.png)
+📸 ![Step 6b: Access Key](screenshot/review-access.png)
 
 ---
 
