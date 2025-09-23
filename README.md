@@ -59,19 +59,20 @@ Each section has short information about completed tasks.
 ---
 
 ## 📂 Folder Structure  
-📦 aws-assignment
-┣ 📂 iam
-┃ ┗ 📜 README.md # IAM tasks summary
-┣ 📂 ec2-ebs
-┃ ┗ 📜 README.md # EC2 & EBS tasks summary
-┣ 📂 s3
-┃ ┗ 📜 README.md # S3 tasks summary
-┣ 📂 cloudwatch
-┃ ┗ 📜 README.md # CloudWatch & Auto Scaling tasks summary
-┣ 📂 vpc
-┃ ┗ 📜 README.md # VPC & Networking tasks summary
-┣ 📂 loadbalancer
-┃ ┗ 📜 README.md # Load Balancing tasks summary
-┣ 📂 lambda
-┃ ┗ 📜 README.md # Lambda tasks summary
-┗ 📜 README.md # Main assignment file (all tasks short info)
+
+📦 aws-assignment  
+ ┣ 📂 iam  
+ ┃ ┗ 📜 README.md       # IAM tasks summary  
+ ┣ 📂 ec2-ebs  
+ ┃ ┗ 📜 README.md       # EC2 & EBS tasks summary  
+ ┣ 📂 s3  
+ ┃ ┗ 📜 README.md       # S3 tasks summary  
+ ┣ 📂 cloudwatch  
+ ┃ ┗ 📜 README.md       # CloudWatch & Auto Scaling tasks summary  
+ ┣ 📂 vpc  
+ ┃ ┗ 📜 README.md       # VPC & Networking tasks summary  
+ ┣ 📂 loadbalancer  
+ ┃ ┗ 📜 README.md       # Load Balancing tasks summary  
+ ┣ 📂 lambda  
+ ┃ ┗ 📜 README.md       # Lambda tasks summary  
+ ┗ 📜 README.md         # Main assignment file (all tasks short info)  
