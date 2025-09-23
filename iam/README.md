@@ -16,21 +16,21 @@ This task covers:
 - Go to AWS Console  
 - In the search bar, type **IAM** and select the service  
 
-![Step 1: Search IAM](screenshots/step1-search-iam.png)
+![Step 1: Search IAM](iam-screenshots/first.png)
 
 ---
 
 ## Step 2: IAM Dashboard
 - View the IAM dashboard  
 
-![Step 2: Dashboard](screenshots/step2-dashboard.png)
+![Step 2: Dashboard](iam-screenshots/ss1.png)
 
 ---
 
 ## Step 3: Users List
 - Go to **Users** section to see existing IAM users  
 
-![Step 3: Users List](screenshots/step3-users-list.png)
+![Step 3: Users List](aim-screenshots/users.png)
 
 ---
 
@@ -38,7 +38,7 @@ This task covers:
 1. Click **Add user**  
 2. Specify username and access type (Programmatic / Console)  
 
-![Step 4: Specify User Details](screenshots/step4-user-details.png)
+![Step 4: Specify User Details](iam-screenshots/ss3.png)
 
 ---
 
@@ -46,7 +46,7 @@ This task covers:
 - Attach existing policies or add to a group  
 - Choose required permissions for the user  
 
-![Step 5: Set Permissions](screenshots/step5-set-permissions.png)
+![Step 5: Set Permissions](aim-screenshots/ss3.png)
 
 ---
 
@@ -54,14 +54,14 @@ This task covers:
 - Review all settings before creating the user  
 - Confirm and create user  
 
-![Step 6: Review User](screenshots/step6-review.png)
+![Step 6: Review User](iam-screenshots/ss5.png)
 
 ---
 
 ## Step 7: Verify User in List
 - Check the newly created user in **Users list**  
 
-![Step 7: User List](screenshots/step7-user-list.png)
+![Step 7: User List](iam-screenshots/ss6.png)
 
 ---
 
@@ -70,11 +70,11 @@ This task covers:
 2. Go to **Security credentials** tab  
 3. View user info, enable console access, and configure MFA  
 
-![Step 8: Security Credentials](screenshots/step8-security-credentials.png)  
-![Step 8a: User Info](screenshots/step8a-user-info.png)  
-![Step 8b: Enable Console Access](screenshots/step8b-console-access.png)  
-![Step 8c: MFA Access](screenshots/step8c-mfa.png)
-
+![Step 8: Security Credentials](iam-screenshots/ss7.png)  
+![Step 8a: User Info](iam-screenshots/ss8.png)  
+![Step 8b: Enable Console Access](iam-screenshots/ss9.png)  
+![Step 8c: MFA Access](iam-screenshots/ss10.png)
+![Step 8d: MFA Access](iam-screenshots/ss11.png)
 ---
 
 ## Notes
