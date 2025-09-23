@@ -16,7 +16,7 @@ This guide walks you through the process of:
 - Navigate to **EC2 Console → Instances**  
 - Select the instance you want to use for creating an AMI  
 
-📸 ![Step 1: Select Instance](screenshots/step1-select-instance.png)
+📸 ![Step 1: Select Instance](AMI-IMG/instances.png)
 
 ---
 
@@ -26,7 +26,11 @@ This guide walks you through the process of:
 - Configure **volumes** and other settings if needed  
 - Click **Create Image** ✅  
 
-📸 ![Step 2: Create Image](screenshots/step2-create-image.png)
+📸 ![Step 2: Create Image](AMI-IMG/Go-Create.png)
+
+📸 ![Step 2a: Created Image](AMI-IMG/Create-Image.png)
+
+📸 ![Step 2a: Created Image](AMI-IMG/volume.png)
 
 > 💡 **Tip:** Include a clear description to identify the AMI later.
 
@@ -36,7 +40,7 @@ This guide walks you through the process of:
 - Go to **AMIs** section in EC2 Console  
 - Wait for the AMI status to show **Available**  
 
-📸 ![Step 3: AMI Available](screenshots/step3-ami-available.png)
+📸 ![Step 3: AMI Available](AMI-IMG/AMIs.png)
 
 > ⏳ **Note:** Depending on instance size, AMI creation may take a few minutes.
 
@@ -49,11 +53,16 @@ This guide walks you through the process of:
 - Review settings and **launch** the instance  
 - Verify that the instance is **running and accessible**  
 
-📸 ![Step 4: Launch Instance](screenshots/step4-launch-instance.png)
+📸 ![Step 4: Launch Instance](AMI-IMG/launch.png)
+
+📸 ![Step 4a: Launched  Instance](AMI-IMG/launch2.png)
 
 > ⚠️ **Reminder:** Ensure you are in the **correct region** when launching the new instance.
 
 ---
+### Verify Instance Created or Not
+
+📸 ![Step 4a: Launched  Instance](AMI-IMG/verify.png)
 
 ## 🎯 Outcome
 - ✅ Successfully created an **AMI** from an existing EC2 instance  
