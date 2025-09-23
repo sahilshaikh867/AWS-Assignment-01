@@ -80,12 +80,14 @@ sudo ./aws/install
    
 - Added description, confirmed, and downloaded `.csv`  
 
-📸 ![Step 6b: Access Key Review](screenshots/review-access.png)
+📸 ![Step 6b: Access Key Review](screenshot/RW-AC.png)
 
 ---
 
 ### 7️⃣ Configure AWS CLI on Ubuntu
 Configured AWS CLI with keys and region:
+
+📸 ![Step 7: Ubuntu Confirmation](screenshot/ubuntu.png)
 
 ---
 
