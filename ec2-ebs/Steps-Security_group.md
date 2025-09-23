@@ -26,7 +26,7 @@ This guide walks you through creating a **new EC2 instance** with a **custom sec
 - Add **Inbound Rule → SSH → My IP**  
 - This ensures only your current IP can access the instance  
 
-📸 ![Step 2: Configure Security Group](screenshots/SG.png)
+📸 ![Step 2: Configure Security Group](screenshot/SG.png)
 
 > 💡 **Tip:** Always check your IP before adding it to the rule. You can find it using `https://whatismyipaddress.com/`.
 
