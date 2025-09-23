@@ -39,6 +39,7 @@ sudo ./aws/install
 📸 ![Step 3: IAM Dashboard](screenshot/Dashboard.png)
 
 - Check User List
+  
 📸 ![Step 3a: User list](screenshot/userlist.png)
 
 ---
@@ -46,6 +47,7 @@ sudo ./aws/install
 ### 4️⃣ Create New IAM User
 - Clicked **Add User**  
 - Entered username
+  
 📸 ![Step 4: Create User](screenshot/username.png)
    
 - Unticked **Provide AWS Management Console access**
@@ -78,7 +80,7 @@ sudo ./aws/install
    
 - Added description, confirmed, and downloaded `.csv`  
 
-📸 ![Step 6b: Access Key](screenshot/review-access.png)
+📸 ![Step 6b: Access Key Review](screenshots/review-access.png)
 
 ---
 
