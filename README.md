@@ -75,4 +75,5 @@ Each section has short information about completed tasks.
  ┃ ┗ 📜 README.md       # Load Balancing tasks summary  
  ┣ 📂 lambda  
  ┃ ┗ 📜 README.md       # Lambda tasks summary  
- ┗ 📜 README.md         # Main assignment file (all tasks short info)  
+ ┗ 📜 README.md         # Main assignment file (all tasks short info)
+
