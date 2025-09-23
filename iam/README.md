@@ -1,131 +1,75 @@
-# AWS Assignment 01
+# AWS IAM Task - Task 1
 
 ## Overview
-This repository contains practical exercises and documentation for AWS services.  
-The tasks cover: IAM, MFA, S3, EC2, VPC, Lambda, CloudWatch, Load Balancer, and EBS.  
-Screenshots are included wherever applicable.
+This task covers the essentials of **AWS Identity and Access Management (IAM)**.  
+IAM lets you **control who can access your AWS account** and **what they can do**.  
+
+In this task, we:  
+- Created a new IAM user with proper permissions  
+- Explored the IAM dashboard and users list  
+- Configured console access and programmatic access  
+- Enabled **Multi-Factor Authentication (MFA)** for extra security  
 
 ---
 
-# **Task 1: IAM**
+## Task Steps & Highlights
 
-## Overview
-IAM (Identity and Access Management) allows you to control **who can access your AWS account** and **what actions they can perform**.  
+### 1️⃣ Search & Access IAM
+- Open AWS Management Console  
+- Search for **IAM** in the services search bar  
+- Accessed the IAM dashboard  
 
-### Steps:
-1. Search for IAM service in AWS console  
-2. View IAM dashboard  
-3. List and manage existing users  
-4. Create new user with required permissions  
-5. Enable console access (if needed)  
-6. Enable MFA for extra security  
-
-**Screenshots (placeholders)**:  
-`iam-screenshots/first.png`, `ss1.png`, `user.png`, `ss3.png`, etc.
+*This is where you get an overview of all IAM resources: users, groups, roles, and policies.*
 
 ---
 
-# **Task 2: MFA**
+### 2️⃣ Users Management
+- Checked existing IAM users  
+- Reviewed permissions and user activity  
+- Understood user info and security credentials  
 
-## Overview
-Enable MFA (Multi-Factor Authentication) for IAM users to add an extra layer of security.
-
-### Steps:
-1. Sign in as IAM user  
-2. Go to Security credentials → Manage MFA  
-3. Configure MFA using mobile app (QR code or manual key)  
-4. Enter two consecutive codes to register  
-5. Test MFA login  
-
-**Screenshots (placeholders)**:  
-`screenshots/mfa-step1.png`, `mfa-step2.png`, `mfa-step3.png`, etc.
+*Knowing your users is the first step in managing access effectively.*
 
 ---
 
-# **Task 3: S3**
+### 3️⃣ Create a New User
+- Clicked **Add User**  
+- Specified **username** and **access type** (CLI/programmatic or console)  
+- Set permissions based on task requirements  
 
-## Overview
-Amazon S3 is a storage service. This task covers:  
-- Creating buckets  
-- Uploading objects  
-- Setting permissions and policies  
-- Versioning and lifecycle rules  
-
-**Screenshots (placeholders)**:  
-`s3-screenshots/bucket-create.png`, `s3-upload.png`, etc.
+*Best practice: Start with minimal permissions and expand as needed.*
 
 ---
 
-# **Task 4: EC2 & EBS**
+### 4️⃣ Review & Verify
+- Reviewed user details  
+- Confirmed settings and created the user  
+- Verified the new user appears in the **users list**  
 
-## Overview
-EC2 is AWS compute service and EBS provides persistent block storage. Tasks cover:  
-- Launching EC2 instances  
-- Configuring key pairs and security groups  
-- Attaching EBS volumes  
-- Taking snapshots  
-
-**Screenshots (placeholders)**:  
-`ec2-screenshots/launch-instance.png`, `ebs-attach.png`, etc.
+*Always double-check before creating users to avoid permission mistakes.*
 
 ---
 
-# **Task 5: VPC & Networking**
+### 5️⃣ Security & MFA
+- Went to **Security Credentials** for the user  
+- Enabled **Console Access** and **MFA**  
+- Ensured the user account has **enhanced security**  
 
-## Overview
-VPC allows network segmentation and control. Tasks cover:  
-- Creating VPC, subnets, IGW, route tables  
-- Setting up NAT, Security groups, NACLs  
-- Peering connections  
-
-**Screenshots (placeholders)**:  
-`vpc-screenshots/vpc-setup.png`, `subnet.png`, etc.
+*MFA adds an extra layer of protection in case credentials are compromised.*
 
 ---
 
-# **Task 6: Lambda**
-
-## Overview
-AWS Lambda allows serverless execution. Tasks cover:  
-- Creating functions  
-- Assigning roles and permissions  
-- Testing execution  
-
-**Screenshots (placeholders)**:  
-`lambda-screenshots/lambda-create.png`, `lambda-test.png`, etc.
+## Key Takeaways
+- IAM is the backbone of AWS security  
+- Always use the **least privilege principle**  
+- Enabling **MFA** is a must for sensitive accounts  
+- Proper user management prevents unauthorized access and keeps your AWS environment safe  
 
 ---
 
-# **Task 7: CloudWatch**
+💡 **Pro Tip:**  
+For documentation, always maintain a **screenshots folder** in the IAM repo to visually track each step.  
+You can link images in Markdown like:
 
-## Overview
-CloudWatch is used for monitoring and logging. Tasks cover:  
-- Creating alarms  
-- Viewing metrics  
-- Logs and dashboards  
-
-**Screenshots (placeholders)**:  
-`cloudwatch-screenshots/alarm.png`, `metrics.png`, etc.
-
----
-
-# **Task 8: Load Balancer**
-
-## Overview
-Load Balancer distributes traffic across multiple instances. Tasks cover:  
-- Creating ELB  
-- Configuring listeners and target groups  
-- Health checks  
-
-**Screenshots (placeholders)**:  
-`loadbalancer-screenshots/create-lb.png`, `healthcheck.png`, etc.
-
----
-
-## Notes / Best Practices
-- Always follow **least privilege principle**  
-- Keep credentials secure  
-- Enable **MFA** for all IAM users  
-- Take regular backups (EBS snapshots, S3 versioning)  
-- Monitor resources using CloudWatch  
-
+```markdown
+![Create User Screenshot](iam-screenshots/create-user.png)
