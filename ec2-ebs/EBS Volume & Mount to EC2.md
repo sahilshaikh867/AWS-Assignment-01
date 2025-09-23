@@ -52,6 +52,8 @@ This guide explains how to:
 
 📸 ![Step 3: Check Volume](ebs-img/Volume6.png) 
 
+📸 ![Step 3: Check Volume](ebs-img/Volume7.png) 
+
 ```bash
 lsblk
 ```
@@ -112,4 +114,4 @@ Task-Volume-Mount/
 - Use descriptive mount points (e.g., /data, /backup).
 - Take snapshots of important volumes regularly for backup.
                          
-----------------------------Created By Sahil Shaikh------------------------------------------------
+--------------------------------------------------------------Created By Sahil Shaikh-----------------------------------------------------------------------------
