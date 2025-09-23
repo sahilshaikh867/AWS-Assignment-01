@@ -109,7 +109,7 @@ Task-Volume-Mount/
     └── step6-fstab.png
 ```
 ----
-###💡 Best Practices:
+### 💡 Best Practices:
 - Always make sure the EBS volume is in the same AZ as the EC2 instance.
 - Use descriptive mount points (e.g., /data, /backup).
 - Take snapshots of important volumes regularly for backup.
