@@ -69,7 +69,7 @@ This guide walks you through creating a **new EC2 instance** with a **custom sec
 ssh -i "your-key.pem" ubuntu@<Public-IP-of-EC2>
 ```
 ### 📂 Repository Structure Suggestion
-
+```
 Task-EC2-SG/
 ├── README.md        <-- This detailed guide
 └── screenshots/
@@ -77,4 +77,4 @@ Task-EC2-SG/
     ├── step2-security-group.png
     ├── step3-launch.png
     └── step4-ssh-verify.png
-
+```
