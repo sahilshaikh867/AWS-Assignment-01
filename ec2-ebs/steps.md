@@ -86,6 +86,13 @@ sudo ./aws/install
 
 ### 7️⃣ Configure AWS CLI on Ubuntu
 Configured AWS CLI with keys and region:
+```bash
+aws configure
+# Enter AWS Access Key ID
+# Enter AWS Secret Access Key
+# Default region: ap-south-1
+# Default output format: json
+```
 
 📸 ![Step 7: Ubuntu Confirmation](screenshot/ubuntu.png)
 
@@ -94,8 +101,9 @@ Configured AWS CLI with keys and region:
 ### 8️⃣ Verify Setup
 
 Checked EC2 instances via CLI:
-
+```bash
 aws ec2 describe-instances
+```
 
 ---
 
