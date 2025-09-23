@@ -30,7 +30,7 @@ This task covers:
 ## Step 3: Users List
 - Go to **Users** section to see existing IAM users  
 
-![Step 3: Users List](aim-screenshots/users.png)
+![Step 3: Users List](iam-screenshots/user.png)
 
 ---
 
@@ -38,7 +38,7 @@ This task covers:
 1. Click **Add user**  
 2. Specify username and access type (Programmatic / Console)  
 
-![Step 4: Specify User Details](iam-screenshots/ss3.png)
+![Step 4: Specify User Details](iam-screenshots/ss5.png)
 
 ---
 
@@ -46,7 +46,9 @@ This task covers:
 - Attach existing policies or add to a group  
 - Choose required permissions for the user  
 
-![Step 5: Set Permissions](aim-screenshots/ss3.png)
+![Step 5: Set Permissions](iam-screenshots/ss3.png)
+![Step 7: User List](iam-screenshots/ss7.png)
+![Step 7: User List](iam-screenshots/ss8.png)
 
 ---
 
@@ -54,14 +56,14 @@ This task covers:
 - Review all settings before creating the user  
 - Confirm and create user  
 
-![Step 6: Review User](iam-screenshots/ss5.png)
+![Step 6: Review User](iam-screenshots/ss4.png)
 
 ---
 
 ## Step 7: Verify User in List
 - Check the newly created user in **Users list**  
 
-![Step 7: User List](iam-screenshots/ss6.png)
+![Step 7: User List](iam-screenshots/ss5.png)
 
 ---
 
@@ -70,7 +72,7 @@ This task covers:
 2. Go to **Security credentials** tab  
 3. View user info, enable console access, and configure MFA  
 
-![Step 8: Security Credentials](iam-screenshots/ss7.png)  
+![Step 8: Security Credentials](iam-screenshots/ss6.png)  
 ![Step 8a: User Info](iam-screenshots/ss8.png)  
 ![Step 8b: Enable Console Access](iam-screenshots/ss9.png)  
 ![Step 8c: MFA Access](iam-screenshots/ss10.png)
