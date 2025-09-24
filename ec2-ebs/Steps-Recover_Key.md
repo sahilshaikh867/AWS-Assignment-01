@@ -183,13 +183,18 @@ sudo cp /mnt/recover/home/ubuntu/.ssh/authorized_keys /mnt/recover/home/ubuntu/.
 ```
 ---
 ### Final Commands Like This
+![Step 1](screenshots/cmd1.png)  
 
-📸 Step 1: ![Step 1](screenshots/cmd1.png)  
 📸 Step 2: ![Step 2](screenshots/cmd2.png)  
-📸 Step 3: ![Step 3](screenshots/cmd3.png)  
-📸 Step 4: ![Step 4](screenshots/cmd4.png)  
-📸 Step 5: ![Step 5](screenshots/cmd5.png)  
-📸 Step 6: ![Step 6](screenshots/cmd6.png)  
+
+📸 Step 3: ![Step 3](screenshots/cmd3.png)
+
+📸 Step 4: ![Step 4](screenshots/cmd4.png) 
+
+📸 Step 5: ![Step 5](screenshots/cmd5.png)
+
+📸 Step 6: ![Step 6](screenshots/cmd6.png)
+
 📸 Step 7: ![Step 7](screenshots/cmd7.png)
 
 - Ensure correct permissions on .ssh directory and authorized_keys
