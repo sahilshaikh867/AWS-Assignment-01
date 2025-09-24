@@ -16,7 +16,7 @@ This guide walks through:
 - Navigate to **EC2 Console → Instances**  
 - Identify the instance whose volume you want to snapshot  
 
-📸 ![Step 1: Select Instance](screenshots/cmd1.png)
+📸 ![Step 1: Select Instance](screenshots/snap1.png)
 
 ---
 
@@ -24,7 +24,7 @@ This guide walks through:
 - Go to **Volumes → Select the attached volume**  
 - Note **Volume ID** and **Availability Zone**  
 
-📸 ![Step 2: Select Volume](screenshots/cmd2.png)
+📸 ![Step 2: Select Volume](screenshots/snap2.png)
 
 ---
 
@@ -33,7 +33,9 @@ This guide walks through:
 - Provide a **name** and optional **description**  
 - Click **Create Snapshot** ✅  
 
-📸 ![Step 3: Create Snapshot](screenshots/cmd3.png)
+📸 ![Step 3: Create Snapshot](screenshots/snap3.png)
+
+📸 ![Step 3: Create Snapshot](screenshots/snap4.png)
 
 > ⏳ Snapshot creation may take a few minutes depending on the volume size.
 
@@ -43,7 +45,7 @@ This guide walks through:
 - Navigate to **Snapshots**  
 - Ensure snapshot status is **Completed**  
 
-📸 ![Step 4: Snapshot Completed](screenshots/cmd4.png)
+📸 ![Step 4: Snapshot Completed](screenshots/snap5.png)
 
 ---
 
@@ -52,7 +54,7 @@ This guide walks through:
 - Configure **size, type, Availability Zone**  
 - Click **Create Volume**  
 
-📸 ![Step 5: Create Volume](screenshots/cmd5.png)
+📸 ![Step 5: Create Volume](screenshots/snap6.png)
 
 ---
 
@@ -60,7 +62,7 @@ This guide walks through:
 - Go to **Volumes → Select new volume → Actions → Attach Volume**  
 - Choose **Target EC2 Instance** and **Device Name** (e.g., `/dev/sdf`)  
 
-📸 ![Step 6: Attach Volume](screenshots/cmd6.png)
+📸 ![Step 6: Attach Volume](screenshots/snap7.png)
 
 ---
 
