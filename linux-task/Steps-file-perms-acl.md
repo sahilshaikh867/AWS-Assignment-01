@@ -94,9 +94,9 @@ cat /documents/spell.txt
 ```
 ❌ Hermione cannot access the file.
 
-📸 ![Step 8: Hermione Denied](screenshot/g1.png)
+📸 ![Step 8: Hermione Denied](screenshots/g1.png)
 
-📸 ![Step 8: Hermione Denied](screenshot/g2.png)
+📸 ![Step 8: Hermione Denied](screenshots/g2.png)
 
 ---
 
