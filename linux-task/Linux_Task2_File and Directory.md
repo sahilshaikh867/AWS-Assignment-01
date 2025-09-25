@@ -83,23 +83,48 @@ cat /practice/task2.txt > /task3.txt
 👉 Copies content by redirecting output instead of using `cp`.  
 
 ---
+# 📸 Linux Task Screenshots  
 
-1. ![](./t2b.png)
+Here are the step-by-step screenshots for the Linux task execution.  
 
-2. ![](./t2c.png)
+---
 
-3. ![](./t2d.png)
+## 🔹 Task 1
+![Task 1](screenshots/task1.png)
 
-4. ![](./t2e.png)
+---
 
-5. ![](./t2f.png)
+## 🔹 Task 2 - Step by Step  
 
-6. ![](./t2g.png)
+### 🖼️ Step 2B
+![Step 2B](screenshots/t2b.png)
 
-7. ![](./t2h.png)
+### 🖼️ Step 2C
+![Step 2C](screenshots/t2c.png)
 
-8. ![](./t2i.png)
+### 🖼️ Step 2D
+![Step 2D](screenshots/t2d.png)
 
-9. ![](./t2j.png)
+### 🖼️ Step 2E
+![Step 2E](screenshots/t2e.png)
+
+### 🖼️ Step 2F
+![Step 2F](screenshots/t2f.png)
+
+### 🖼️ Step 2G
+![Step 2G](screenshots/t2g.png)
+
+### 🖼️ Step 2H
+![Step 2H](screenshots/t2h.png)
+
+### 🖼️ Step 2I
+![Step 2I](screenshots/t2i.png)
+
+### 🖼️ Step 2J
+![Step 2J](screenshots/t2j.png)
+
+---
+
+✨ End of screenshots.
 
 --------------------------------------------------------------Created By Sahil Shaikh----------------------------------------------------------------------
