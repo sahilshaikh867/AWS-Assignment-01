@@ -1,8 +1,3 @@
-Aight bhai 😎 tu chaahta hai **Cron Jobs** task ka full beginner-to-hero guide `.md` format me, jisme commands + explanation + examples + emoji style ho. Mai ise ekdum detailed bana deta hoon.
-
----
-
-````markdown
 # 🖥️ Linux Task Sheet  
 
 ## 🔹 Task 5: Cron Jobs (Scheduled Tasks) ⏰  
@@ -12,7 +7,8 @@ It allows you to run scripts or commands automatically at specified times or int
 
 - Cron jobs are managed using the `crontab` command.  
 - Each user can have their own crontab.  
-- The cron service must be running for jobs to execute:  
+- The cron service must be running for jobs to execute:
+  
 ```bash
 sudo systemctl status cron    # Ubuntu/Debian
 sudo systemctl status crond   # CentOS/RHEL
