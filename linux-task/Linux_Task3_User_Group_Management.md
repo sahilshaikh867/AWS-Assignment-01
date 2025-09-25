@@ -67,5 +67,5 @@ sudo gpasswd -A babubhaiya herapheri
 ```bash
 sudo gpasswd -d sham herapheri
 ```
-
+![Step 2J](screenshots/task3.png)
 --------------------------------------------------------------Created By Sahil Shaikh----------------------------------------------------------------------
