@@ -160,6 +160,16 @@ crontab -r
 grep CRON /var/log/syslog
 ```
 ---
+### Screenshots 
+
+📸 Step 1: ![Step 1](screenshots/c1.png)
+
+📸 Step 2: ![Step 2](screenshots/c2.png)
+
+📸 Step 3: ![Step 3](screenshots/c3.png)
+
+📸 Step 4: ![Step 4](screenshots/c4.png)
+
 ---
 
 ✅ **Cron Jobs Task Completed!** 🚀
