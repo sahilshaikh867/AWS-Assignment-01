@@ -46,4 +46,7 @@ fg %1
 
 The background job now runs in the foreground.
 
+---
+📸 ![Step : PS](screenshots/task5.png)
+
 --------------------------------------------------------------Created By Sahil Shaikh----------------------------------------------------------------------
