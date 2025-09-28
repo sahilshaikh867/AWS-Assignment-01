@@ -1,13 +1,12 @@
-# 📊 AWS CloudWatch & Auto Scaling Group (ASG) Setup
+# 📊 AWS CloudWatch – CPU Monitoring & Stress Test
 
 ## 📌 Overview
 
 This guide demonstrates how to:  
 
-- Monitor **EC2 instances** with CloudWatch  
+- Monitor **EC2 instance CPU usage** with CloudWatch  
 - Set up **CPU utilization alarms**  
-- Integrate CloudWatch alarms with **Auto Scaling Groups (ASG)**  
-- Automatically **scale instances** based on demand  
+- Simulate CPU load using **stress** command  
 
 > ⚠️ **Security Reminder:** Do **not** include any AWS credentials in public repositories. Always use placeholders.
 
@@ -18,49 +17,87 @@ This guide demonstrates how to:
 ### 1️⃣ Set Up CloudWatch Alarm
 
 1. Navigate to **AWS Console → CloudWatch → Alarms → Create Alarm**  
-2. Select the EC2 instance and choose **CPUUtilization** as the metric  
+2. Select the **EC2 instance** and choose **CPUUtilization** as the metric  
 3. Set threshold: **≥ 50%**  
-4. Configure **actions**: send notification via SNS or trigger Auto Scaling policies  
+4. Configure **actions** (optional): send notification via SNS  
 
-📸 ![Step 1: CloudWatch Alarm](screenshots/cw1.png)
-
-💡 **Tip:** Always provide a clear name for the alarm for easy identification.
+💡 **Tip:** Give a **clear alarm name** for easy identification.
 
 ---
 
-### 2️⃣ Create Auto Scaling Group (ASG)
+### 2️⃣ Simulate CPU Load
 
-1. Navigate to **EC2 → Auto Scaling Groups → Create Auto Scaling Group**  
-2. Choose **Launch Template** or **AMI**  
-3. Configure **minimum, desired, and maximum instance count**  
-4. Attach **CloudWatch alarm** to trigger scale in/out actions  
-5. Review and **create ASG**  
+1. Connect to the **EC2 instance** via SSH:  
+```bash
+ssh ec2-user@<instance-public-ip>
+```
+---
+Install stress tool:
 
-📸 ![Step 2: ASG Setup](screenshots/cw2.png)  
-📸 ![Step 2a: ASG Configuration](screenshots/cw2a.png)
+Copy code
+```
+# Amazon Linux
+sudo yum install -y stress
+```
+- Generate CPU load on 4 cores for 5 minutes:
+---
+# Copy code
+```
+stress --cpu 4 --timeout 300
+```
 
-💡 **Tip:** Define scaling policies based on CPU or other metrics to efficiently manage load.
+> 💡 Tip: Monitor CloudWatch → Metrics → CPUUtilization while stress is running. You should see the CPU spike.
 
 ---
 
-### 3️⃣ Test and Verify
+## 3️⃣ Verify CloudWatch Alarm
 
-1. Simulate **high CPU usage** to test the alarm  
-2. Check if **CloudWatch Alarm triggers** and ASG responds by launching new instances  
-3. Monitor **EC2 instances and metrics** to ensure scaling is working correctly  
+# Go to CloudWatch → Alarms
 
-📸 ![Step 3: Verify ASG Response](screenshots/cw3.png)  
-📸 ![Step 3a: CloudWatch Metrics](screenshots/cw3a.png)
+- Check if the alarm changes state when CPU usage exceeds threshold
 
----
-
-## 🎯 Expected Outcome
-
-- ✅ CloudWatch alarm triggers when CPU exceeds threshold  
-- ✅ Auto Scaling Group launches or terminates instances automatically  
-- ✅ EC2 instances scale based on actual load  
-- ✅ Monitoring & automation reduces manual intervention  
+- Ensure notifications (SNS) are triggered if configured
 
 ---
 
-## 📂 Repository Structure Suggestion
+### 🎯 Expected Outcome
+> ✅ CloudWatch alarm triggers when CPU exceeds threshold
+
+> ✅ EC2 instance metrics show CPU spikes during stress test
+
+> ✅ Ability to monitor and respond to CPU load automatically
+
+---
+
+📂 Reference Screenshots 
+
+## 🖼️ Reference Screenshots
+
+<p align="center">
+  <img src="screenshot/cw1.png" width="180px" alt="CloudWatch Step 1"/>
+  
+  <img src="screenshot/cw2.png" width="180px" alt="CloudWatch Step 2"/>
+  
+  <img src="screenshot/cw3.png" width="180px" alt="CloudWatch Step 3"/>
+  
+  <img src="screenshot/cw4.png" width="180px" alt="CloudWatch Metrics 1"/>
+</p>
+
+<p align="center">
+  <img src="screenshot/cw5.png" width="180px" alt="CloudWatch Metrics 2"/>
+  
+  <img src="screenshot/cw6.png" width="180px" alt="CloudWatch Metrics 3"/>
+  
+  <img src="screenshot/cw7.png" width="180px" alt="CloudWatch Metrics 4"/>
+  
+  <img src="screenshot/cw8.png" width="180px" alt="CloudWatch Metrics 5"/>
+</p>
+
+---
+
+🌐 Connect with Me
+LinkedIn: https://www.linkedin.com/in/sahilshaikh867/
+
+Portfolio: https://sahilshaikh867.vercel.app/
+
+--------------------------------------------------------------Created By Sahil Shaikh----------------------------------------------------------------------
