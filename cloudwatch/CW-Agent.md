@@ -221,10 +221,10 @@ Now go back to **CloudWatch → Metrics**, and you’ll see CPU usage spike 🚀
 
 ## 🏁 Conclusion
 
-✅ Installed and configured CloudWatch Agent successfully
-✅ Collected custom metrics and logs
-✅ Verified real-time updates on the CloudWatch dashboard
-✅ Set foundation for advanced monitoring and automation
+- ✅ Installed and configured CloudWatch Agent successfully
+- ✅ Collected custom metrics and logs
+- ✅ Verified real-time updates on the CloudWatch dashboard
+- ✅ Set foundation for advanced monitoring and automation
 
 > 💡 *Next Step:* Integrate this with **Auto Scaling Group + Alarm** for fully automated scaling and alerts.
 
