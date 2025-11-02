@@ -47,6 +47,9 @@ So yeah — pure efficiency 👇
 
 Click **Create function**
 
+![S3 Bucket Screenshot](img/lam2.png)
+
+
 ---
 
 #### 3️⃣ Add Some Code
@@ -79,6 +82,8 @@ Click **Deploy**
 
 Now, every time you upload a new file to that bucket, Lambda will automatically trigger and log the event.
 
+![S3 Bucket Screenshot](img/lam3.png)
+
 ---
 
 #### 5️⃣ Test the Setup
@@ -88,6 +93,8 @@ Now, every time you upload a new file to that bucket, Lambda will automatically 
 * You’ll see a log entry with the event details!
 
 ---
+
+![S3 Bucket Screenshot](img/lam1.png)
 
 ### ✅ You Just Built:
 
